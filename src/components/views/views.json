@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_views_views",
+  "info": {
+    "displayName": "views",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    },
+    "num": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsrooms",
+  "info": {
+    "singularName": "newsroom",
+    "pluralName": "newsrooms",
+    "displayName": "Newsroom",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Body": {
+      "type": "richtext"
+    },
+    "Date": {
+      "type": "date"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::category.category",
+      "mappedBy": "newsroom"
+    },
+    "viewsPerNews": {
+      "displayName": "views",
+      "type": "component",
+      "repeatable": false,
+      "component": "views.views"
+    }
+  }
+}
