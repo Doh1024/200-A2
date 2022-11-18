@@ -4,7 +4,8 @@
   "info": {
     "singularName": "category",
     "pluralName": "categories",
-    "displayName": "category"
+    "displayName": "category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,6 +20,9 @@
       "relation": "manyToOne",
       "target": "api::newsroom.newsroom",
       "inversedBy": "categories"
+    },
+    "desc": {
+      "type": "text"
     }
   }
 }

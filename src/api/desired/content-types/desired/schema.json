@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "desireds",
+  "info": {
+    "singularName": "desired",
+    "pluralName": "desireds",
+    "displayName": "Desired"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "num": {
+      "type": "integer"
+    }
+  }
+}

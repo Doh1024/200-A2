@@ -4,7 +4,8 @@
   "info": {
     "singularName": "privacy",
     "pluralName": "privacies",
-    "displayName": "privacy"
+    "displayName": "privacy",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,16 @@
     },
     "body": {
       "type": "richtext"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
